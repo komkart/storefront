@@ -3,8 +3,9 @@ import { Footer } from "@/ui/components/Footer";
 import { Header } from "@/ui/components/Header";
 
 export const metadata = {
-	title: "Saleor Storefront example",
-	description: "Starter pack for building performant e-commerce experiences with Saleor.",
+	title: "Komkart.com Storefront",
+	description:
+		"Komkart is an online platform for ordering traditional dress, homemade foods and groceries based in Kokrajhar, Bodoland, India - 783370",
 };
 
 export default function RootLayout(props: { children: ReactNode; params: { channel: string } }) {
