@@ -29,6 +29,7 @@ export type LocalizedAddressFieldLabel =
 	| "district"
 	| "state"
 	| "zip"
+	| "pin"
 	| "postal"
 	| "postTown"
 	| "prefecture";
@@ -36,7 +37,8 @@ export const localizedAddressFieldMessages: Record<LocalizedAddressFieldLabel, s
 	province: "Province",
 	district: "District",
 	state: "State",
-	zip: "Zip code",
+	zip: "ZIP code",
+	pin: "PIN Code",
 	postal: "Postal code",
 	postTown: "Post town",
 	prefecture: "Prefecture",
