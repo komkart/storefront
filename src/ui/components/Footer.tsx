@@ -71,6 +71,9 @@ export async function Footer({ channel }: { channel: string }) {
 							</div>
 						);
 					})}
+					<div>
+						<Image alt="Komkart github repository" height={250} width={270} src={"/razorpay-who.png"} />
+					</div>
 				</div>
 
 				{channels?.channels && (
@@ -82,7 +85,43 @@ export async function Footer({ channel }: { channel: string }) {
 				)}
 
 				<div className="flex flex-col justify-between border-t border-neutral-200 py-10 sm:flex-row">
-					<p className="text-sm text-neutral-500">Copyright &copy; {currentYear} Komkart.com</p>
+					<p className="text-sm text-neutral-500">
+						Copyright &copy; {currentYear} Komkart.com <br />
+						<br />
+						<b>Address</b>
+						<br />
+						Komkart.com
+						<br />
+						South Dimalgaon, <br />
+						Titaguri, Kokrajhar, <br />
+						Bodoland Territorial Region (BTR),
+						<br /> Assam, India - 783370
+						<br />
+						Support mails: komkart.com@gmail.com/info@komkart.com
+						<br /> <br />
+						<b>Social Media</b>
+						<br />
+						<Link href={"https://whatsapp.com/channel/0029VaDcrjT2kNFjRan8QT1i"} target="_blank">
+							WhatsApp Channel
+						</Link>{" "}
+						<br />
+						<Link href={"https://instagram.com/komkart"} target="_blank">
+							https://instagram.com/komkart
+						</Link>
+						<br />
+						<Link href={"https://threads.net/komkart"} target="_blank">
+							https://threads.net/komkart
+						</Link>
+						<br />
+						<Link href={"https://www.youtube.com/@komkart_com"} target="_blank">
+							https://www.youtube.com/@komkart_com
+						</Link>
+						<br />
+						<Link href={"https://x.com/komkart_com"} target="_blank">
+							https://x.com/komkart_com
+						</Link>
+						<br />
+					</p>
 					<p className="flex gap-1 text-sm text-neutral-500">
 						Powered by{" "}
 						<Link target={"_blank"} href={"https://x.com/GitSpot"}>
