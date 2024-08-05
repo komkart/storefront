@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getServerAuthClient } from "@/app/config";
 
 export async function LoginForm() {
@@ -47,13 +48,15 @@ export async function LoginForm() {
 						className="w-full rounded border bg-neutral-50 px-4 py-2"
 					/>
 				</div>
-
 				<button
 					className="rounded bg-neutral-800 px-4 py-2 text-neutral-200 hover:bg-neutral-700"
 					type="submit"
 				>
 					Log In
-				</button>
+				</button>{" "}
+				<Link href="register" className="right rounded px-4 py-2 text-neutral-200 hover:bg-neutral-700">
+					Don&apos;t have an account? Register
+				</Link>
 			</form>
 			<div></div>
 		</div>
